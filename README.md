@@ -57,4 +57,4 @@ checking a number before repeating it. B.S. Finance, Rutgers Business School, cu
 
 Currently learning SQL, Clay, and cloud deployment properly, in that order.
 
-Reach me at ayman.k.abdalla@gmail.com
+- Reach him at ayman.k.abdalla@gmail.com (personal) or aym.abdalla.career@gmail.com (career/job search)
