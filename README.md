@@ -1,35 +1,32 @@
-<!--
-This is the source for github.com/AymAbdalla's profile README.
+# Hi, I'm Ayman
 
-To publish: create a PUBLIC repo named exactly `AymAbdalla` (same as the username),
-put this file in it as `README.md`, and GitHub renders it on the profile page.
+I'm an Enterprise GTM professional who designs AI-assisted workflow and infrastructure tools. I start with problems I've encountered in practice: deciding where to focus, keeping AI configuration consistent, and making plans that reflect how work actually gets done.
 
-Keep it in sync here. This file is the master; the repo is the copy.
-Nothing in it signals a job search, by design. Aym is employed.
--->
+I define product requirements, system behavior, and acceptance criteria, and direct AI-assisted development. AI coding tools implement the code; I review product behavior and test evidence, make the tradeoffs, and continue building my technical understanding.
 
-## Ayman Abdalla
+## Selected projects
 
-**How I build, stated plainly:** I write the spec, direct AI coding agents to implement it, review and
-test what comes back, and make the architecture calls. I do not hand-write production code. The 241
-passing tests and the backtest harness in these repos exist because I required them, not because a
-model volunteered them. If that distinction matters to you, it should, and this is the honest version
-of it.
+### HuntLoop
+A tested pre-production GTM workflow prototype for small B2B teams. It brings together prospect verification and scoring, outreach preparation, human approval controls, and provider-event handling. Existing outcome-based scoring and variant selection support experimentation; they are not evidence of proven outreach improvement.
 
-### How I think about this work
+### Aym Infrastructure Control Plane (AICP)
+A private Python prototype for controlled AI configuration changes. It compares expected and observed state, refuses unexpected drift, and supports deterministic plans, policy checks, atomic changes, evidence receipts, and rollback. Validation uses disposable environments; live-runtime management is not yet established.
 
-- **Spec before code.** Ambiguity in the spec becomes confident nonsense in the output.
-- **Guardrails as validation nodes, not wiki pages.** "None found" has to be a valid answer, or the
-  system invents. Nothing sends autonomously.
-- **Measure against a baseline you can lose to.** I had ten weeks of full Claude access before I built
-  anything, and it produced no lift. The gain arrived phase by phase as the system shipped. The
-  engineering was the variable, not the tool. A result you cannot attribute is not a result.
-- **A failure mode you have not written down is a failure mode you will ship.**
+### Morrow
+A private adaptive-planning application that I use personally. It separates planned work from what actually happened and uses explicit check-ins to inform later scheduling. Recorded history stays intact during replanning. Calendar integrations, voice, and conversational automation remain future work.
 
-### Background
+## How I approach AI systems
 
-Currently - Business Development Representative at Tech-Sales.
-Financial analyst work at Retail Company before that: forecast models, driver analysis, and the habit of
-checking a number before repeating it. B.S. Finance, Rutgers Business School, cum laude.
+- Start with the workflow and the person who needs it, then decide where AI helps.
+- Use deterministic controls for permissions, validation, state changes, and operational limits.
+- Use models for language and interpretation where useful, with validation, fallback behavior, and human review appropriate to the consequences.
+- Distinguish a working prototype, a tested behavior, and a real-world outcome. Treat adaptation as something to evaluate, not a claim to assume.
 
-- Reach me at ayman.k.abdalla@gmail.com (personal) or aym.abdalla.career@gmail.com (career/job search)
+## Current focus
+
+Reliable workflow design, evaluation, configuration safety, and practical usability across GTM and personal planning systems.
+
+These projects remain private. The summaries describe current development work, not launched products or customer deployments.
+
+[LinkedIn](https://linkedin.com/in/aymabd) · [Email](mailto:ayman.k.abdalla@gmail.com)
+
