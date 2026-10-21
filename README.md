@@ -1,21 +1,33 @@
 # Hi, I'm Ayman
 
-I'm an Enterprise GTM professional who designs AI-assisted workflow and infrastructure tools. I start with problems I've encountered in practice: deciding where to focus, keeping AI configuration consistent, and making plans that reflect how work actually gets done.
+I build AI outbound and CRM data systems from the sales seat. I'm an Enterprise BDR at an HR-tech SaaS company, and I'm moving into GTM engineering.
 
-I define product requirements, system behavior, and acceptance criteria, and direct AI-assisted development. AI coding tools implement the code; I review product behavior and test evidence, make the tradeoffs, and continue building my technical understanding.
+## Built at work
 
-## How I approach AI systems
+- **An AI outbound system.** It plans every call, email and LinkedIn touch, 30-50 a day on a rolling 10-business-day plan, and rewrites the next day's plan every night. A nightly agent reads the day's outcomes, updates records, rebuilds the plan, and checks do-not-call lists, local dial windows and a send gate before anything is published. It never sends on its own. I built it alone, while carrying quota, with Claude, Python and Playwright.
+- **CRM hygiene and data-accuracy workflows.** Contact-data audits, book cleanup, and a send gate that emails only verified addresses. It's been a large share of my work as a BDR.
+- **A Claude-assisted account-prioritization process** that grew out of that data work. It's shared across the BDR team and has been used to process over 4,000 accounts across the AMER BDR org. BDRs in EMEA reach out to see the setup, and I coach them on the AI workflows.
 
-- Start with the workflow and the person who needs it, then decide where AI helps.
-- Use deterministic controls for permissions, validation, state changes, and operational limits.
-- Use models for language and interpretation where useful, with validation, fallback behavior, and human review appropriate to the consequences.
-- Distinguish a working prototype, a tested behavior, and a real-world outcome. Treat adaptation as something to evaluate, not a claim to assume.
+Ranked in the top 4 of about 20 BDRs on average in FY25 and in the top 3 of 22 in FY26 so far; #1 mid-market BDR in Q2 2026.
 
-## Current focus
+## Side projects
 
-Reliable workflow design, evaluation, configuration safety, and practical usability across GTM and personal planning systems.
+AI-assisted development that I designed and directed:
 
-These projects remain private. The summaries describe current development work, not launched products or customer deployments.
+- **[agent-skills](https://github.com/AymAbdalla/agent-skills)** (public): four plugins of agent skills for Claude Code, Codex and the Claude app. A plan, build, check and ship loop that stops after each phase for a go-ahead; explanations and quizzes; tools for building and pressure-testing skills; and GTM Engine, vendor-neutral GTM engineering skills from ICP definition, list cleaning and signal scoring to play building, outreach drafts, daily planning and funnel review. Runs on plain files and made-up data, and never writes to live systems.
+- **outbound-engine-demo:** a runnable outbound engine in Python and SQLite with a send gate, account scoring into four plays, sequences as YAML and a nightly plan, plus two pipelines on the public CMS provider register.
+- **daybook:** a Python command-line tool that turns a CRM export into a screened, scored daily plan and a CRM fix-ticket workbook. Built spec-first, with separate agents writing the spec and the code.
+
+outbound-engine-demo and daybook are private. I'm glad to walk through the code in an interview.
+
+## How I build
+
+- Start with the workflow and the person doing it, then decide where AI helps.
+- Put the rules that must hold in code: permissions, send gates, dial windows, data checks. Use models for language and judgment, and keep a person approving anything that goes out.
+- Test before claiming. A prototype, a tested behavior and a real-world result are three different things.
+
+## Stack
+
+Claude (agents, scheduled runs, MCP connectors), Python, pytest, Playwright, SQLite, REST APIs, n8n, Git and GitHub. Salesforce, Outreach, Orum, ZoomInfo, Apollo and LinkedIn Sales Navigator. Learning now: Clay and SQL for data warehouses.
 
 [LinkedIn](https://linkedin.com/in/aymabd) · [Email](mailto:ayman.k.abdalla@gmail.com)
-
