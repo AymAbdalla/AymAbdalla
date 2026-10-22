@@ -4,7 +4,7 @@ I build AI outbound and CRM data systems from the sales seat. I'm an Enterprise 
 
 ## Built at work
 
-- **An AI outbound system.** It plans every call, email and LinkedIn touch, 30-50 a day on a rolling 10-business-day plan, and rewrites the next day's plan every night. A nightly agent reads the day's outcomes, updates records, rebuilds the plan, and checks do-not-call lists, local dial windows and a send gate before anything is published. It never sends on its own. I built it alone, while carrying quota, with Claude, Python and Playwright.
+- **An AI outbound system.** It plans every call, email and LinkedIn touch, 30-50 a day on a rolling 10-business-day plan, and rewrites the next day's plan every night. A nightly agent reads the day's outcomes, updates records, rebuilds the plan, and checks do-not-call lists, local dial windows and a send gate before anything is published. Nothing is sent unless I approved the person and the copy. Working alone while carrying quota, I designed and directed the Claude coding agents that built it in Python, with Playwright.
 - **CRM hygiene and data-accuracy workflows.** Contact-data audits, book cleanup, and a send gate that emails only verified addresses. It's been a large share of my work as a BDR.
 - **A Claude-assisted account-prioritization process** that grew out of that data work. It's shared across the BDR team and has been used to process over 4,000 accounts across the AMER BDR org. BDRs in EMEA reach out to see the setup, and I coach them on the AI workflows.
 
