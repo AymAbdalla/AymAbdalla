@@ -14,7 +14,8 @@ Ranked in the top 4 of about 20 BDRs on average in FY25 and in the top 3 of 22 i
 
 AI-assisted development that I designed and directed:
 
-- **[agent-skills](https://github.com/AymAbdalla/agent-skills)** (public): four plugins of agent skills for Claude Code, Codex and the Claude app. A plan, build, check and ship loop that stops after each phase for a go-ahead; explanations and quizzes; tools for building and pressure-testing skills; and GTM Engine, vendor-neutral GTM engineering skills from ICP definition, list cleaning and signal scoring to play building, outreach drafts, daily planning and funnel review. Runs on plain files and made-up data, and never writes to live systems.
+- **[gtm-engine](https://github.com/AymAbdalla/gtm-engine)** (public): ten vendor-neutral GTM engineering skills, packaged as the `aym-gtm` plugin for Claude Code and Codex, from ICP definition, list cleaning and signal scoring to play building, outreach drafts, daily planning, CRM sync and funnel review. 365 automated tests. Runs on plain files and made-up data, and never writes to live systems.
+- **[agent-skills](https://github.com/AymAbdalla/agent-skills)** (public): three plugins of agent skills for Claude Code, Codex and the Claude app. A plan, build, check and ship loop that stops after each phase for a go-ahead; explanations and quizzes; tools for building and pressure-testing skills.
 - **outbound-engine-demo:** a runnable outbound engine in Python and SQLite with a send gate, account scoring into four plays, sequences as YAML and a nightly plan, plus two pipelines on the public CMS provider register.
 - **daybook:** a Python command-line tool that turns a CRM export into a screened, scored daily plan and a CRM fix-ticket workbook. Built spec-first, with separate agents writing the spec and the code.
 
