@@ -14,6 +14,7 @@ Ranked in the top 4 of about 20 BDRs on average in FY25 and in the top 3 of 22 i
 
 Designed and built with AI coding agents:
 
+- **[account-scoring-engine](https://github.com/AymAbdalla/account-scoring-engine)** (public to read, all rights reserved): my flagship project. A rules-based engine in Python that ranks 1,800 sample accounts for 60 fictional BDRs, explains every score in plain English, flags accounts that sit outside their BDR's territory or fit no segment, and writes the results into a Salesforce Developer org on a weekday schedule from GitHub Actions. It uses a least-privilege integration user, all-or-nothing batched upserts with read-back counts, Salesforce fields, reports and dashboards deployed from source, and 448 automated tests. [Case study](https://github.com/AymAbdalla/account-scoring-engine/blob/main/docs/case-study.md).
 - **[gtm-engine](https://github.com/AymAbdalla/gtm-engine)** (public): ten vendor-neutral GTM engineering skills, packaged as the `aym-gtm` plugin for Claude Code and Codex, from ICP definition, list cleaning and signal scoring to play building, outreach drafts, daily planning, CRM sync and funnel review. 365 automated tests. Runs on plain files and made-up data, and never writes to live systems.
 - **[agent-skills](https://github.com/AymAbdalla/agent-skills)** (public): three plugins of agent skills for Claude Code, Codex and the Claude app. A plan, build, check and ship loop that stops after each phase for a go-ahead; explanations and quizzes; tools for building and pressure-testing skills.
 - **outbound-engine-demo:** a runnable outbound engine in Python and SQLite with a send gate, account scoring into four plays, sequences as YAML and a nightly plan, plus two pipelines on the public CMS provider register.
@@ -29,6 +30,6 @@ outbound-engine-demo and daybook are private. I'm glad to walk through the code 
 
 ## Stack
 
-Claude (agents, scheduled runs, MCP connectors), Python, pytest, Playwright, SQLite, REST APIs, n8n, Git and GitHub. Salesforce, Outreach, Orum, ZoomInfo, Apollo and LinkedIn Sales Navigator. Learning now: Clay and SQL for data warehouses.
+Claude (agents, scheduled runs, MCP connectors), Python, pytest, Playwright, SQLite, REST APIs, n8n, Git, GitHub, GitHub Actions and the Salesforce CLI. Salesforce, Outreach, Orum, ZoomInfo, Apollo and LinkedIn Sales Navigator. Learning now: Clay and SQL for data warehouses.
 
 [LinkedIn](https://linkedin.com/in/aymabd) · [Email](mailto:ayman.k.abdalla@gmail.com)
