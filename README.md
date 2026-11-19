@@ -1,8 +1,8 @@
 # Ayman Abdalla
 
-**I build GTM systems, AI workflows and full-stack apps with AI-assisted development, and I test them before I ship them.** I come from enterprise tech sales, so I know the revenue workflows I automate from the inside.
+**I build GTM systems, AI workflows and full-stack apps** I come from enterprise tech sales, so I know the revenue workflows I automate from the inside.
 
-**Open to full-time roles:** GTM Engineer, Forward-Deployed Engineer, Solutions Engineer and AI-forward software engineering. New York metro, Eastern time. [LinkedIn](https://linkedin.com/in/aymabd) · [Email](mailto:ayman.k.abdalla@gmail.com)
+GTM Engineer, Forward-Deployed Engineer, Solutions Engineer and AI-forward software engineering. New York metro, Eastern time. [LinkedIn](https://linkedin.com/in/aymabd) · [Email](mailto:ayman.k.abdalla@gmail.com)
 
 ## Results from the sales seat
 
@@ -23,12 +23,6 @@
   _Python · agent skills · GitHub Actions_
 - **[agent-skills](https://github.com/AymAbdalla/agent-skills)**: my build process as three plugins: plan, build, independent check and ship, one phase at a time. 91 tests.
   _Python · agent skills_
-
-## How I build
-
-- Spec and plan first, then small slices, each re-run by a separate checker session (169 checks on the scoring engine so far, 25 of them failed and sent back for fixes).
-- Hard rules live in tested code: permissions, send gates, data checks. AI handles language and judgment, and a person approves anything that goes out.
-- Every claim says where it's proven: a Salesforce Developer org, sample data, a test copy or my own phone.
 
 ## Stack
 
