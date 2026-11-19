@@ -2,7 +2,9 @@
 
 **I build GTM systems, AI workflows and full-stack apps** I come from enterprise tech sales, so I know the revenue workflows I automate from the inside.
 
-GTM Engineer, Forward-Deployed Engineer, Solutions Engineer and AI-forward software engineering. New York metro, Eastern time. [LinkedIn](https://linkedin.com/in/aymabd) · [Email](mailto:ayman.k.abdalla@gmail.com)
+GTM Engineer, Forward-Deployed Engineer, Solutions Engineer and AI-forward software engineering.
+New York metro
+[LinkedIn](https://linkedin.com/in/aymabd) · [Email](mailto:ayman.k.abdalla@gmail.com)
 
 ## Results from the sales seat
 
